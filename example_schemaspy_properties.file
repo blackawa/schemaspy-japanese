@@ -1,0 +1,7 @@
+schemaspy.t=pgsql
+schemaspy.host=gateway.docker.internal
+schemaspy.port=5432
+schemaspy.db=database_name
+schemaspy.s=public
+schemaspy.u=your_username
+schemaspy.p=your_password
