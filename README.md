@@ -7,4 +7,5 @@
 ## 使い方
 
     $ docker build . -t schemaspy/schemaspy:japanese
-    $ docker run --rm --add-host=gateway.docker.internal:host-gateway -v "$(PWD)/output:/output" -v "$(PWD)/schemaspy.properties:/schemaspy.properties" schemaspy/schemaspy:japanese -font ipaexg
+    $ docker run --rm --add-host=gateway.docker.internal:host-gateway -v "$(PWD)/erd:/output" -v "$(PWD)/schemaspy.properties:/schemaspy.properties" schemaspy/schemaspy:japanese -font ipaexg
+    
